@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Афиша — Театр драмы</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Логотип">
+            <p>Театр драмы имени В.В.Маяковского</p>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О театре</a>
+            <a href="catalog.html" class="active">Афиша</a>
+            <a href="price.html">Карта зала</a>
+        </nav>
+    </header>
+
+    <section class="poster">
+        <h1 class="poster-title">АФИША</h1>
+
+        <div class="months">
+            <button type="button" class="month active" data-month="september">Сентябрь</button>
+            <button type="button" class="month" data-month="october">Октябрь</button>
+            <button type="button" class="month" data-month="november">Ноябрь</button>
+        </div>
+
+        <div class="play-list">
+
+            <div class="month-section active" id="september">
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">18 сентября</span>
+                    <span class="weekday">пятница</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Морфий</h3>
+                    <p class="author">М. Булгаков</p>
+                    <p class="desc">Дневник доктора Полякова</p>
+                </div>
+                <div class="play-age">16+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">20 сентября</span>
+                    <span class="weekday">воскресенье</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Праздник был</h3>
+                    <p class="author">В. Шукшин</p>
+                    <p class="desc">Четыре новеллы</p>
+                </div>
+                <div class="play-age">16+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">26 сентября</span>
+                    <span class="weekday">суббота</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Руки, которые не нужны</h3>
+                    <p class="author">М. Цветаева</p>
+                    <p class="desc">Роман её души</p>
+                </div>
+                <div class="play-age">14+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">27 сентября</span>
+                    <span class="weekday">пятница</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Ромео и Джульетта</h3>
+                    <p class="author">У. Шекспир</p>
+                    <p class="desc">Трагедия в двух действиях</p>
+                </div>
+                <div class="play-age">14+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">28 сентября</span>
+                    <span class="weekday">суббота</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Бесприданница</h3>
+                    <p class="author">А. Островский</p>
+                    <p class="desc">Драма в двух действиях</p>
+                </div>
+                <div class="play-age">16+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">29 сентября</span>
+                    <span class="weekday">воскресенье</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Васса Железнова</h3>
+                    <p class="author">М. Горький</p>
+                    <p class="desc">Драма в двух действиях</p>
+                </div>
+                <div class="play-age">16+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            </div>
+
+            <div class="month-section" id="october">
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">2 октября</span>
+                    <span class="weekday">пятница</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Чайка</h3>
+                    <p class="author">А. Чехов</p>
+                    <p class="desc">Драма в двух действиях</p>
+                </div>
+                <div class="play-age">16+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">4 октября</span>
+                    <span class="weekday">воскресенье</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Праздник был</h3>
+                    <p class="author">В. Шукшин</p>
+                    <p class="desc">Четыре новеллы</p>
+                </div>
+                <div class="play-age">16+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">9 октября</span>
+                    <span class="weekday">пятница</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Ромео и Джульетта</h3>
+                    <p class="author">У. Шекспир</p>
+                    <p class="desc">Трагедия в двух действиях</p>
+                </div>
+                <div class="play-age">14+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">11 октября</span>
+                    <span class="weekday">вoскресенье</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Ревизор</h3>
+                    <p class="author">Н. Гоголь</p>
+                    <p class="desc">Сатиристическая комедия</p>
+                </div>
+                <div class="play-age">14+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">16 октября</span>
+                    <span class="weekday">пятница</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Васса Железнова</h3>
+                    <p class="author">М. Горький</p>
+                    <p class="desc">Драма в двух действиях</p>
+                </div>
+                <div class="play-age">14+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">17 октября</span>
+                    <span class="weekday">суббота</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Гроза</h3>
+                    <p class="author">А. Островский</p>
+                    <p class="desc">Драма в двух действиях</p>
+                </div>
+                <div class="play-age">16+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+            </div>
+
+            
+            <div class="month-section" id="november">
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">6 ноября</span>
+                    <span class="weekday">пятница</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Вишневый сад</h3>
+                    <p class="author">А. Чехов</p>
+                    <p class="desc">Драма в двух действиях</p>
+                </div>
+                <div class="play-age">16+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">8 ноября</span>
+                    <span class="weekday">воскресенье</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Маленькие женщины</h3>
+                    <p class="author">Л. Олкотт</p>
+                    <p class="desc">Драма в двух действиях</p>
+                </div>
+                <div class="play-age">16+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">13 ноября</span>
+                    <span class="weekday">пятница</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Маленький принц</h3>
+                    <p class="author">А. де Сент-Экзюпери</p>
+                    <p class="desc">Семейный спектакль</p>
+                </div>
+                <div class="play-age">14+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">15 ноября</span>
+                    <span class="weekday">воскресенье</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Ромео и Джульетта</h3>
+                    <p class="author">У. Шекспир</p>
+                    <p class="desc">Трагедия в двух действиях</p>
+                </div>
+                <div class="play-age">14+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+                        <article class="play">
+                <div class="play-date">
+                    <span class="day">18 ноября</span>
+                    <span class="weekday">среда</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>Бесприданница</h3>
+                    <p class="author">А. Островский</p>
+                    <p class="desc">Драма в двух действиях</p>
+                </div>
+                <div class="play-age">16+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+
+            <article class="play">
+                <div class="play-date">
+                    <span class="day">20 ноября</span>
+                    <span class="weekday">воскресенье</span>
+                    <span class="time">18:00</span>
+                </div>
+                <div class="play-info">
+                    <h3>На дне</h3>
+                    <p class="author">М. Горький</p>
+                    <p class="desc">Драма в двух действиях</p>
+                </div>
+                <div class="play-age">16+</div>
+                <div class="play-buy">
+                    <a href="price.html" class="btn-buy">Купить билет</a>
+                </div>
+            </article>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="feedback">
+        <h2>Оставьте отзыв</h2>
+        <form>
+            <label>
+                Ваше имя
+                <input type="text" required>
+            </label>
+            <label>
+                Ваша почта
+                <input type="email" required>
+            </label>
+
+            <label>
+            Какой спектакль вы смотрели?
+            <select name="performance">
+                <option>Морфий</option>
+                <option>Праздник был</option>
+                <option>Руки, которые не нужны</option>
+                <option>Ромео и Джульетта</option>
+                <option>Другой</option>
+            </select>
+            </label>
+
+            <label>
+            Ваш отзыв
+            <textarea name="feedback" rows="5" required></textarea>
+            </label>
+
+            <button type="submit">Отправить</button>
+
+            
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <p>© 2026 Театр драмы. Все права защищены.</p>
+            <p>Обновлено: 15.09.2026</p>
+        </div>
+        <div>
+            <p>г. Москва, ул. Театральная, д. 1</p>
+            <p>Тел.: +7 (999) 123-45-67 | Email: info@teatr-dramy.ru</p>
+        </div>
+    </footer>
+
+    <script src="js/catalog.js"></script>
+</body>
+</html>

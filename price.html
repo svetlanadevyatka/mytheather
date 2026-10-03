@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта зала — Театр драмы</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Логотип">
+            <p>Театр драмы имени В.В.Маяковского</p>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Главная</a>
+            <a href="about.html">О театре</a>
+            <a href="catalog.html">Афиша</a>
+            <a href="price.html" class="active">Карта зала</a>
+        </nav>
+    </header>
+
+    <h1 class="page-title">КАРТА ЗАЛА</h1>
+
+    <section class="hall-map">
+        <div class="legend">
+            <i class="dot vip"></i><span>1500 р</span>
+            <i class="dot middle"></i><span>1000 р</span>
+            <i class="dot cheap"></i><span>700 p</span>
+        </div>
+
+        <div class="scene">Сцена</div>
+
+        <div class="hall-wrapper">
+            <div class="hall-side" id="hall-left"></div>
+            <div class="hall-column">
+               <div class="hall" id="hall"></div>
+               <div id="balcony"></div>
+            </div>
+            <div class="hall-side" id="hall-right"></div>
+        </div>
+    </section>
+
+    <section class="price-section">
+
+        <h2 class="price-subtitle">Дополнительные услуги</h2>
+        <div class="services-grid">
+            <div class="services-header">
+                <div class="services-cell">Услуга</div>
+                <div class="services-cell">Стоимость</div>
+            </div>
+            <div class="services-row">
+                <div class="services-cell">Программа спектакля</div>
+                <div class="services-cell">200 ₽</div>
+            </div>
+            <div class="services-row">
+                <div class="services-cell">Театральный бинокль (аренда)</div>
+                <div class="services-cell">150 ₽</div>
+            </div>
+            <div class="services-row">
+                <div class="services-cell">Автограф-сессия с актерами</div>
+                <div class="services-cell">1000 ₽</div>
+            </div>
+        </div>
+
+        <p class="price-note">
+            * Цены могут меняться в зависимости от премьеры и приглашённых артистов.
+            Актуальную информацию уточняйте в кассе.
+        </p>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <p>© 2026 Театр драмы. Все права защищены.</p>
+            <p>Обновлено: 15.09.2026</p>
+        </div>
+        <div>
+            <p>г. Москва, ул. Театральная, д. 1</p>
+            <p>Тел.: +7 (999) 123-45-67 | Email: info@teatr-dramy.ru</p>
+        </div>
+    </footer>
+
+    <script src="js/price.js"></script>
+
+</body>
+</html>
